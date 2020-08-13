@@ -57,3 +57,16 @@ Now, say that you have the detections from YOLO. You may then proceed to getting
 
 Then, from the estimated poses, I perform dimensionality reduction (taking inspiration from [curve spreads](https://www.sciencedirect.com/science/article/abs/pii/S0167865504001217?via%3Dihub)), where a time-sequence of poses is transformed into a compact 2D spatio-temporal representation which we would call *distance spreads* :see_no_evil:. Here, the joint distances from a defined body center are taken and stacked together as row vectors for each frame.
 
+<p align="middle">
+  <img src="ar-distspread/sample/distspread.png" width="80%"/>
+</p>
+
+For this, I used clips from the [SpaceJam Dataset](https://github.com/simonefrancia/SpaceJam), which contains ~1-second clips of 10 actions classes. However, for my purpose, I had to manually annotate the joint locations for my ground-truth data. And so, I was only able to fully annotate 3 classes before the deadline. Lemme show some distance spreads for these 3 classes.
+
+<p align="middle">
+  <img src="ar-distspread/sample/distspreads3.png" width="70%"/>
+</p>
+
+They look different from each other, no? 
+
+Now for the network, contrary to complex pipelines (which undoubtedly achieve state-of-the-art results), I wanted test how effective a straightforward 1D-CNN could be. 
