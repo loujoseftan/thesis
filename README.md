@@ -1,4 +1,5 @@
 # Pose Estimation and Action Recognition of Basketball Players using Machine Learning Techniques
+In this thesis, three different machine learning frameworks were implemented for object detection, pose estimation, and action recognition. For now, these frameworks were implemented in the hopes that they could be used for a joint pipeline that would perform detection then posed-based recognition consecutively. Still, the ultimate goal is a unified framework that could do all these things together, and better :weary::ok_hand: . 
 
 Main References
 
