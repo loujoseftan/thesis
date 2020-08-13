@@ -19,13 +19,14 @@ Main References
 
 ### Requirements
 
-* [Microsoft Visual Studio 2017/2019](https://visualstudio.microsoft.com/)
-* [CMake](https://cmake.org/download/) >= 3.12
-* OpenCV >= 2.4 ([This](https://www.learnopencv.com/install-opencv-4-on-windows/) installation guide helped me big time)
-* GPU with Compute Capability >= 3.0
-* [CUDA](https://developer.nvidia.com/cuda-downloads) >= 10.0
-* [cuDNN](https://developer.nvidia.com/cudnn) >= 7.0 (Note that you have to make an account to be able to download it, and follow the installation guide [here](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-windows))
+* **[Microsoft Visual Studio 2017/2019](https://visualstudio.microsoft.com/)**
+* **[CMake](https://cmake.org/download/) >= 3.12**
+* **OpenCV >= 2.4** ([This](https://www.learnopencv.com/install-opencv-4-on-windows/) installation guide helped me big time)
+* **GPU with Compute Capability >= 3.0**
+* **[CUDA](https://developer.nvidia.com/cuda-downloads) >= 10.0**
+* **[cuDNN](https://developer.nvidia.com/cudnn) >= 7.0** (Note that you have to make an account to be able to download it, and follow the installation guide [here](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-windows))
 
+Clone this [repo](https://github.com/AlexeyAB/darknet) and compile YOLO from source. A more exhaustive documentation is available in the said repo, including [instructions for compiling using `CMake`](https://github.com/AlexeyAB/darknet#how-to-compile-on-windows-using-cmake) and [instructions on using YOLO on the command line](https://github.com/AlexeyAB/darknet#how-to-use-on-the-command-line), which I pretty much used. Additionally, [this](https://medium.com/analytics-vidhya/installing-darknet-on-windows-462d84840e5a) may also help you.
 
 ## Pose Estimation
 
