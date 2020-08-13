@@ -43,4 +43,12 @@ Here are some sample detections using the pre-trained weights. Raw detections ar
 
 ## Pose Estimation
 
+For pose estimation, I used Stacked Hourglass Networks, and followed the [Keras implementation](https://github.com/yuanyuanli85/Stacked_Hourglass_Network_Keras) by Victor Li. The network was trained on the [MPII Human Pose Dataset](http://human-pose.mpi-inf.mpg.de/). You will have to download the dataset on your own and place it under `data/mpii/images`.
+
+Below are some sample predictions from the test set of the MPII dataset, as well as a sequence of heatmaps of Klay Thompson shooting a jumpshot :basketball::sweat_drops:.
+
+<p align="middle">
+  <img src="pose-shn/sample/sample_preds.png" width="80%"/>
+</p>
+
 ## Action Recognition
