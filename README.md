@@ -51,4 +51,6 @@ Below are some sample predictions from the test set of the MPII dataset, as well
   <img src="pose-shn/sample/sample_preds.png" width="80%"/>
 </p>
 
+Now, say that you have the detections from YOLO. You may then proceed to getting the joint locations and estimated poses by cropping out the detections from the scene using the bounding box coordinates and feeding them into the stacked hourglass networks.
+
 ## Action Recognition
