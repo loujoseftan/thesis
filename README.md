@@ -28,6 +28,8 @@ Main References
 
 Clone this [repo](https://github.com/AlexeyAB/darknet) and compile YOLO from source. A more exhaustive documentation is available in the said repo, including [instructions for compiling using `CMake`](https://github.com/AlexeyAB/darknet#how-to-compile-on-windows-using-cmake) and [instructions on using YOLO on the command line](https://github.com/AlexeyAB/darknet#how-to-use-on-the-command-line), which I pretty much used. Additionally, [this](https://medium.com/analytics-vidhya/installing-darknet-on-windows-462d84840e5a) may also help you.
 
+:exclamation::exclamation::exclamation: :fire:**YOLO v4**:fire: is available! Haven't tried it yet, but you might want to. 
+
 ## Pose Estimation
 
 ## Action Recognition
