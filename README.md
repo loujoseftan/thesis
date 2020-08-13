@@ -54,3 +54,6 @@ Below are some sample predictions from the test set of the MPII dataset, as well
 Now, say that you have the detections from YOLO. You may then proceed to getting the joint locations and estimated poses by cropping out the detections from the scene using the bounding box coordinates and feeding them into the stacked hourglass networks.
 
 ## Action Recognition
+
+Then, from the estimated poses, I perform dimensionality reduction (taking inspiration from [curve spreads](https://www.sciencedirect.com/science/article/abs/pii/S0167865504001217?via%3Dihub)), where a time-sequence of poses is transformed into a compact 2D spatio-temporal representation which we would call *distance spreads* :see_no_evil:. Here, the joint distances from a defined body center are taken and stacked together as row vectors for each frame.
+
