@@ -32,7 +32,14 @@ Clone this [repo](https://github.com/AlexeyAB/darknet) and compile YOLO from sou
 
 Pre-trained weights of YOLOv3 from the COCO Dataset were used for player detection, and they are available [here](https://pjreddie.com/media/files/yolov3.weights) taken from Joseph Redmon's website (https://pjreddie.com/darknet/yolo/). Training YOLO from scratch would've taken so much time I'm not sure I would have made the deadline if I did. So, I opted to use these weights which, luckily, were robust enough to detect players on the court.
 
-:exclamation::exclamation::exclamation: :fire:**YOLO v4**:fire: is available! Haven't tried it yet, but you might want to.
+<p align="middle">
+  <img src="detection-darknet/data/sample/detections_no_seg.png" width="42%"/>
+  <img src="detection-darknet/data/sample/detections_w_seg.png" width="42%"/>
+</p>
+
+Here are some sample detections using the pre-trained weights. Raw detections are shown on the left, and after some image processing to classify detections to their teams on the right. It is worth noting that I used a crude thresholding for these classifications (Color histogram backprojection and area thresholding). One would have to use a better discriminator for robustness.
+
+:exclamation::exclamation::exclamation: :fire:**YOLO v4**:fire: is available! Haven't tried it yet, but you might want to. :exclamation::exclamation::exclamation:
 
 ## Pose Estimation
 
