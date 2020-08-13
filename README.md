@@ -30,7 +30,7 @@ Clone this [repo](https://github.com/AlexeyAB/darknet) and compile YOLO from sou
 
 ### Some Details
 
-Pre-trained weights of YOLOv3 from the COCO Dataset were used for player detection, and they are available [here](https://pjreddie.com/media/files/yolov3.weights) taken from Joseph Redmon's website (https://pjreddie.com/darknet/yolo/). Training YOLO from scratch would've taken so much time I'm not sure I would have made the deadline if I did. So, I opted to use these weights which, luckily, we robust enough to detect players on the court.
+Pre-trained weights of YOLOv3 from the COCO Dataset were used for player detection, and they are available [here](https://pjreddie.com/media/files/yolov3.weights) taken from Joseph Redmon's website (https://pjreddie.com/darknet/yolo/). Training YOLO from scratch would've taken so much time I'm not sure I would have made the deadline if I did. So, I opted to use these weights which, luckily, were robust enough to detect players on the court.
 
 :exclamation::exclamation::exclamation: :fire:**YOLO v4**:fire: is available! Haven't tried it yet, but you might want to.
 
