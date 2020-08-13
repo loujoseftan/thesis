@@ -1,5 +1,5 @@
 # Pose Estimation and Action Recognition of Basketball Players using Machine Learning Techniques
-In this thesis, three different machine learning frameworks were implemented for object detection, pose estimation, and action recognition. For now, these frameworks were implemented in the hopes that they could be used for a joint pipeline that would perform detection then posed-based recognition consecutively. Still, the ultimate goal is a unified framework that could do all these things together, and better :weary::ok_hand: . 
+In this thesis, three different machine learning frameworks were implemented for object detection, pose estimation, and action recognition. For now, these frameworks were implemented in the hopes that they could be used for a joint pipeline that would perform detection then posed-based recognition consecutively. Still, the ultimate goal is a unified framework that could do all these things together, and better :weary::ok_hand:. 
 
 Main References
 
@@ -28,7 +28,11 @@ Main References
 
 Clone this [repo](https://github.com/AlexeyAB/darknet) and compile YOLO from source. A more exhaustive documentation is available in the said repo, including [instructions for compiling using `CMake`](https://github.com/AlexeyAB/darknet#how-to-compile-on-windows-using-cmake) and [instructions on using YOLO on the command line](https://github.com/AlexeyAB/darknet#how-to-use-on-the-command-line), which I pretty much used. Additionally, [this](https://medium.com/analytics-vidhya/installing-darknet-on-windows-462d84840e5a) may also help you.
 
-:exclamation::exclamation::exclamation: :fire:**YOLO v4**:fire: is available! Haven't tried it yet, but you might want to. 
+### Some Details
+
+Pre-trained weights of YOLOv3 from the COCO Dataset were used for player detection, and they are available [here](https://pjreddie.com/media/files/yolov3.weights) taken from Joseph Redmon's website (https://pjreddie.com/darknet/yolo/). Training YOLO from scratch would've taken so much time I'm not sure I would have made the deadline if I did. So, I opted to use these weights which, luckily, we robust enough to detect players on the court.
+
+:exclamation::exclamation::exclamation: :fire:**YOLO v4**:fire: is available! Haven't tried it yet, but you might want to.
 
 ## Pose Estimation
 
