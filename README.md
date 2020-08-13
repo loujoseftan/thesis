@@ -17,7 +17,7 @@ Main References
 
 ## Player Detection
 
-### Requirements
+### Requirements (on Windows)
 
 * **[Microsoft Visual Studio 2017/2019](https://visualstudio.microsoft.com/)**
 * **[CMake](https://cmake.org/download/) >= 3.12**
